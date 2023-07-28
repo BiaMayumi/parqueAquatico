@@ -1,5 +1,10 @@
 .logo{
+<<<<<<< HEAD
     width: 150px; 
+=======
+    width: 155px; 
+    
+>>>>>>> 9daf7bff6e2f8da2ab05ef5ade79a59ab1c13cb8
 }
 
 
@@ -53,7 +58,7 @@
     position: absolute;
     font-size: 90px;
     left: 440px;
-    top: 135px;
+    top: 300px;
     font-family: Impact, fantasy;
     color: aliceblue;
   }
@@ -62,8 +67,7 @@
     position: absolute;
     font-size: 90px;
     left: 620px;
-    top: 135px;
-    font-family: Impact, fantasy;
+    top: 300px;    font-family: Impact, fantasy;
     color: #5CB9F2
     ;
   }
@@ -99,6 +103,39 @@
     top: -532px;
   }
 
+/* Estilos para o contêiner da barra de pesquisa */
+.search-bar {
+    display: flex;
+    align-items: center;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 9px;
+    padding: 3px;
+    position: relative;
+   
+    margin-left: 60em;
+    top: -1105px;
+   
+  }
   
+  /* Estilos para o campo de texto */
+  .search-bar input[type="text"] {
+    flex: 1;
+    border: none;
+    outline: none;
    
-   
+  }
+  
+  /* Estilos para o botão */
+  .search-bar button {
+    background-color: #2b4561;
+    color: #fff;
+    border: none;
+    border-radius: 9px;
+    margin-left: 5px;
+    padding: 9px 12px;
+    cursor: pointer;
+    
+  }
+
+ 
