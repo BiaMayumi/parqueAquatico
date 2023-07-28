@@ -1,0 +1,60 @@
+.logo{
+    width: 150px; 
+    
+}
+
+
+  
+  .home{
+    width: 1000px;
+    margin-left: -8em;
+    position: absolute;
+    top: 3%;
+    font-size: 120%;
+    color: black;
+    text-align: center;
+    
+  }
+
+  .atracao{
+    width: 1000px;
+    margin-left: 3em;
+    position: absolute;
+    top: 3%;
+    font-size: 120%;
+    color: black;
+    text-align: center;
+
+  }
+
+  .contato{
+
+    width: 1000px;
+    margin-left: 14em;
+    position: absolute;
+    top: 3%;
+    font-size: 120%;
+    color: black;
+    text-align: center;
+  }
+
+  .container {
+    position: relative;
+  }
+  
+  #image {
+    position: relative;
+    width: 1429px;
+    margin-left: -9em;
+    top: -130px;
+  }
+  
+  #texto {
+    position: absolute;
+    font-size: 50px;
+    left: 255px;
+    top: 135px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+  }
+  
