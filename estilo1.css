@@ -1,8 +1,87 @@
-.header{
 
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@500&display=swap');
+
+    
+    
+    .logo{
+        width: 150px;
 }
 
-.logo{
-    width: 200px;
+    .pesquisa{
+        width: 1000px;
+        margin-left: 30em;
+        position: absolute;
+        top: 3%;
+        font-size: 120%;
+        color: black;
+        text-align: center;
+    }
+  
+
+    .home{
+        width: 1000px;
+        margin-left: -8em;
+        position: absolute;
+        top: 3%;
+        font-size: 120%;
+        color: black;
+        text-align: center;
+    
+}
+
+    .atracao{
+        width: 1000px;
+        margin-left: 3em;
+        position: absolute;
+        top: 3%;
+        font-size: 120%;
+        color: black;
+        text-align: center;
+}
+
+    .contato{
+
+    width: 1000px;
+    margin-left: 14em;
+    position: absolute;
+    top: 3%;
+    font-size: 120%;
+    color: black;
+    text-align: center;
+}
+
+    .quadrado1 {
+    width: 450px; /* Largura do retângulo */
+    height: 600px; /* Altura do retângulo */
+    background-color: white; /* Cor de fundo do retângulo */
+    border-radius: 5%;
+    margin-top: 10em;
+
+    
+}
+
+    .imagem {
+        display: inline-block;
+    
+    }
+
+    
+
+header{
+      background-color: #F7F7F7; 
+        width: 100%;
+        height: 65px;
+        align-items: center;
+       
+}
+body{
+    
+    background-color: #BBDEF4;
+}
+
+h1,h2{
+    color: #1F3455;
+    font-family: 'Hind', sans-serif;
     margin-left: 2em;
 }
+
