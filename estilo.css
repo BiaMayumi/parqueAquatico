@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(10, 10, 49);
+}
+
+h1 {
+    color: white;
+    margin-left: 155px;
+    position: absolute;
+    top: 40px; 
+    font-size: 23px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+}
+
+.quadrado {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    width: 190px;
+    height: 250px;
+    margin: 15px;
+    border-radius: 6px;
+    display: inline-block;
+    margin-top: 130px;
+    margin-left: 160px;
+
+}
+
+.quadrado1 {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    width: 935px;
+    height: 80px;
+    margin: 100px;
+    border-radius: 6px;
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 160px;
+}
+
+.horario {
+    margin-left: 360px;
+    position: relative; 
+    top: 15px;
+}
+
+.horario1 {
+    margin-left: 350px;
+    position: relative; 
+    top: 10px;
+}
