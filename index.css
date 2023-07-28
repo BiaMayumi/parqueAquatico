@@ -1,0 +1,137 @@
+.logo{
+    width: 155px; 
+    
+}
+
+
+  
+  .home{
+    width: 1000px;
+    margin-left: -8em;
+    position: absolute;
+    top: 3%;
+    font-size: 120%;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .atracao{
+    width: 1000px;
+    margin-left: 3em;
+    position: absolute;
+    top: 3%;
+    font-size: 120%;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .contato{
+    text-decoration: none;
+    width: 1000px;
+    margin-left: 14em;
+    position: absolute;
+    top: 3%;
+    font-size: 120%;
+    color: black;
+    text-align: center;
+   
+  }
+
+  .container {
+    position: relative;
+  }
+  
+  #image {
+    position: relative;
+    width: 1429px;
+    margin-left: -9em;
+    top: -130px;
+  }
+  
+  #texto {
+    position: absolute;
+    font-size: 90px;
+    left: 440px;
+    top: 300px;
+    font-family: Impact, fantasy;
+    color: aliceblue;
+  }
+
+  #texto1 {
+    position: absolute;
+    font-size: 90px;
+    left: 620px;
+    top: 300px;    font-family: Impact, fantasy;
+    color: #5CB9F2
+    ;
+  }
+
+  #redes {
+    position: absolute;
+    font-size: 15px;
+    left: 580px;
+    top: 540px;
+    font-family: Times, Times New Roman, serif;
+    color: #ffffff
+    ;
+    
+  }
+  
+  #insta{
+    position: relative;
+    width: 20px;
+    margin-left: 40em;
+    top: -480px;
+  }
+
+  #face{
+    position: relative;
+    width: 20px;
+    margin-left: 38em;
+    top: -504.8px;
+  }
+  #tt{
+    position: relative;
+    width: 33px;
+    margin-left: 35.7em;
+    top: -532px;
+  }
+
+/* Estilos para o contêiner da barra de pesquisa */
+.search-bar {
+    display: flex;
+    align-items: center;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 9px;
+    padding: 3px;
+    position: relative;
+   
+    margin-left: 60em;
+    top: -1105px;
+   
+  }
+  
+  /* Estilos para o campo de texto */
+  .search-bar input[type="text"] {
+    flex: 1;
+    border: none;
+    outline: none;
+   
+  }
+  
+  /* Estilos para o botão */
+  .search-bar button {
+    background-color: #2b4561;
+    color: #fff;
+    border: none;
+    border-radius: 9px;
+    margin-left: 5px;
+    padding: 9px 12px;
+    cursor: pointer;
+    
+  }
+
+ 
