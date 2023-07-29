@@ -15,7 +15,7 @@
     position: absolute;
     top: 3%;
     font-size: 120%;
-    color: black;
+    color: rgb(0, 0, 0);
     text-align: center;
     text-decoration: none;
   }
@@ -49,7 +49,8 @@
   
   #image {
     position: relative;
-    width: 1429px;
+    width: 1356px;
+        height: 550px;
     margin-left: -9em;
     top: -130px;
   }
@@ -76,7 +77,7 @@
     position: absolute;
     font-size: 15px;
     left: 580px;
-    top: 540px;
+    top: 500px;
     font-family: Times, Times New Roman, serif;
     color: #ffffff
     ;
@@ -87,21 +88,19 @@
     position: relative;
     width: 20px;
     margin-left: 40em;
-    top: -480px;
+    top: -240px;
   }
 
   #face{
     position: relative;
     width: 20px;
     margin-left: 38em;
-    top: -504.8px;
-  }
+    top: -240px;  }
   #tt{
     position: relative;
     width: 33px;
     margin-left: 35.7em;
-    top: -532px;
-  }
+    top: -240px;  }
 
 /* Estilos para o contêiner da barra de pesquisa */
 .search-bar {
