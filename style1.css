@@ -1,0 +1,115 @@
+.home{
+    font-size: 22px;
+    text-decoration: none;
+    color: black;
+    margin-left: 19em;
+    align-items: center;
+    position: absolute;
+    top: 30px;
+
+}
+
+.atracao{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    margin-left: 31em;
+    align-items: center;
+    position: absolute;
+    top: 30px;
+}
+
+
+.contato{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    margin-left: 41em;
+    align-items: center;
+    position: absolute;
+    top: 30px;
+
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    width: 220px;
+    border: 1px solid #ccc;
+    border-radius: 9px;
+    padding: 6px;
+    position: absolute;
+   margin-left: 70em;
+   top: 30px;
+   
+  }
+  
+  /* Estilos para o campo de texto */
+  .search-bar input[type="text"] {
+    flex: 1;
+    border: none;
+    outline: none;
+   
+  }
+  
+  /* Estilos para o botão */
+  .search-bar button {
+    background-color: #2b4561;
+    color: #fff;
+    border: none;
+    border-radius: 9px;
+    margin-left: 5px;
+    padding: 9px 12px;
+    cursor: pointer;
+    
+  }
+
+  .fundo{
+    position: absolute;
+    width: 1520px;
+    height: 642px;
+    top:30px;
+    margin-left: -8.9px;
+    display: inline-block;
+    position: relative;
+
+}
+
+.container {
+    display: inline-block;
+    position: relative;
+    
+  }
+  .container p {
+    position: absolute;
+    top: 200px;
+    right: 780px;
+    font-size: 90px;
+    color: white;
+    font-family: Impact, fantasy;
+    align-items: center;
+   
+  }
+
+  .container p2 {
+    position: absolute;
+    top: 290px;
+    right: 570px;
+    font-size: 90px;
+    color: #5CB9F2;
+    font-family: Impact, fantasy;
+    text-align: center;
+   
+  }
+
+  .container h2 {
+    position: absolute;
+    top: 460px;
+    right: 720px;
+    font-size: 18px;
+    color: #ffffff;        
+    font-family: Times, Times New Roman, serif;
+    align-items: center;
+   
+  }
+
