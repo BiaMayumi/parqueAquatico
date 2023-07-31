@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 :root{
     --color-blue:#56A1BF;
     --color-blue2:#5CB9F2;
@@ -17,7 +17,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto';
+    font-family: 'Poppins', sans-serif;
 }
 
 html{
@@ -53,6 +53,7 @@ header .navigation .navigation-items a{
     margin-left: 100px;
     top: 1.0em;
     right: 5em;
+    
 }
 
 
@@ -120,11 +121,11 @@ header .navigation .navigation-items a{
 }
 
 .atracoes h1{
-    font-weight: 200;
     text-align: center;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin-top: 5em;
     background-color: var(--color-blue3);
+    font-size: bolder;
 }
 
 .quadrado{
@@ -152,12 +153,19 @@ header .navigation .navigation-items a{
 
 .container .quadrado h1{
     color: var(--color-white);
-    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto';
     font-weight: 300;
     padding-top: 2em;
     padding-left: 2em;
 }
 
+#kids{
+    margin-left: 0.7em;
+}
+
+#relax{
+    margin-left: 0.5em;
+}
 .container a{
     text-decoration: none;
 }
@@ -198,9 +206,9 @@ footer h3{
     margin-left: -8em;
 }
 
-
 @media (max-width: 1040px) {
-    /* header{
-
-    } */
+    header{
+    padding: 20px 20px;
+        
+    }
 }

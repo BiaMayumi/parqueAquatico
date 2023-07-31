@@ -1,7 +1,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Hind:wght@500&display=swap');
 
-    
+html{
+    scroll-behavior: smooth;
+}   
     
     .logo{
         width: 150px;

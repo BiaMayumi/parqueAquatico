@@ -2,8 +2,10 @@
     width: 150px; 
 }
 
+html{
+  scroll-behavior: smooth;
+}
 
-  
   .home{
     width: 1000px;
     margin-left: -8em;
