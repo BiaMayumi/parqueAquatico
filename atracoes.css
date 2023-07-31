@@ -191,6 +191,14 @@ footer h3{
     padding-top: 2em;
 }
 
+.midia-icons{
+    text-align: center;
+    align-items: baseline;
+    margin-top: 5em;
+    margin-left: -8em;
+}
+
+
 @media (max-width: 1040px) {
     /* header{
 
