@@ -1,0 +1,168 @@
+.logo{
+    width: 170px; 
+    top:7px;
+    position: absolute;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+  .home{
+    font-size: 22px;
+    text-decoration: none;
+    color: black;
+    margin-left: -34em;
+    align-items: center;
+    position: absolute;
+    top: 5px;
+   
+  }
+
+  .atracao{
+    font-size: 22px;
+    text-decoration: none;
+    color: black;
+    margin-left: -24em;
+    align-items: center;
+    position: absolute;
+    top: 5px;
+  }
+
+  .contato{
+    font-size: 22px;
+    text-decoration: none;
+    color: black;
+    margin-left: -14em;
+    align-items: center;
+    position: absolute;
+    top: 5px;
+  }
+
+  .container {
+    position: relative;
+  }
+  
+  #image {
+    position: absolute;
+    width: 1655.5px;
+    height: 670px;
+    margin-left: -9em;
+    top: 80px;
+  }
+  
+  #texto {
+    position: absolute;
+    font-size: 90px;
+    top: 300px;
+    right: 780px;
+    color: white;
+    font-family: Impact, fantasy;
+    align-items: center;
+    
+  }
+
+  #texto1 {
+    position: absolute;
+    font-size: 90px;
+    position: absolute;
+    top: 300px;
+    right: 560px;
+    font-size: 90px;
+    color: #5CB9F2;
+    font-family: Impact, fantasy;
+    text-align: center;
+    
+  }
+
+  #redes {
+    position: absolute;
+    font-size: 15px;
+    top: 500px;  
+    right: 720px;
+    font-size: 18px;
+    color: #ffffff;        
+    font-family: Times, Times New Roman, serif;
+    align-items: center;
+    ;
+    
+  }
+  
+  #insta{
+    position: absolute;
+    width: 23px;
+    margin-left: 45.8em;
+    top: 525px; 
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+  }
+
+  #face{
+    position: absolute;
+    width: 22.5px;
+    margin-left: 43.4em;
+    top: 525px;  
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); }
+    
+ 
+ 
+    #tt{
+    position: absolute;
+    width: 38.5px;
+    margin-left: 47.4em;
+    top: 519px; box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); }
+
+/* Estilos para o contêiner da barra de pesquisa */
+.search-bar {
+    display: flex;
+    align-items: center;
+    width: 220px;
+    border: 1px solid #ccc;
+    border-radius: 9px;
+    padding: 6px;
+    position: absolute;
+   margin-left: 70em;
+   top: 10px;
+   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+   
+  }
+  
+  /* Estilos para o campo de texto */
+  .search-bar input[type="text"] {
+    flex: 1;
+    border: none;
+    outline: none;
+
+   
+  }
+  
+  /* Estilos para o botão */
+  .search-bar button {
+    background-color: #2b4561;
+    color: #fff;
+    border: none;
+    border-radius: 9px;
+    margin-left: 5px;
+    padding: 9px 12px;
+    cursor: pointer;
+    
+  }
+
+  .quadrado{
+    width: 10000000px;
+background-color: #2b4561;
+top: 5000px;
+padding: relative;
+  }
+ 
+  .o{
+
+          margin-left: 76em;
+          position: absolute;
+          top: 94%;
+          font-size: 110%;
+          color: rgb(255, 255, 255);
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;   
+         
+  }

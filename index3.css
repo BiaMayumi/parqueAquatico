@@ -12,263 +12,229 @@
     scroll-behavior: smooth;
 }
 .logo{
+  width: 170px; 
+  top:7px;
+  position: absolute;
+}
 
-        width: 150px; 
+html{
+scroll-behavior: smooth;
+}
 
-   
-    }
-    
-    
-      
-      .home{
-        width: 1000px;
-        margin-left: -8em;
-        position: absolute;
-        top: 3%;
-        font-size: 120%;
-        color: rgb(0, 0, 0);
-        text-align: center;
-        text-decoration: none;
-      }
-    
-      .atracao{
-        width: 1000px;
-        margin-left: 3em;
-        position: absolute;
-        top: 3%;
-        font-size: 120%;
-        color: black;
-        text-align: center;
-        text-decoration: none;
-      }
-    
-      .contato{
-        text-decoration: none;
-        width: 1000px;
-        margin-left: 14em;
-        position: absolute;
-        top: 3%;
-        font-size: 120%;
-        color: black;
-        text-align: center;
-       
-      }
-    
-      .container {
-        position: relative;
-      }
-      
-      #image {
-        position: relative;
-        width: 1356px;
-        height: 550px;
-        margin-left: -9em;
-        top: 10px;
-      }
-      
-      #texto {
-        position: absolute;
-        font-size: 90px;
-        left: 440px;
-        top: 300px;
-        font-family: Impact, fantasy;
-        color: aliceblue;
-      }
-    
-      #texto1 {
-        position: absolute;
-        font-size: 90px;
-        left: 620px;
-        top: 300px;    font-family: Impact, fantasy;
-        color: #5CB9F2
-        ;
-      }
-    
-      #redes {
-        position: absolute;
-        font-size: 15px;
-        left: 580px;
-        top: 540px;
-        font-family: Times, Times New Roman, serif;
-        color: #ffffff
-        ;
-        
-      }
-      
-      #insta{
-        position: relative;
-        width: 20px;
-        margin-left: 40em;
-        top: -480px;
-      }
-    
-      #face{
-        position: relative;
-        width: 20px;
-        margin-left: 38em;
-        top: -504.8px;
-      }
-      #tt{
-        position: relative;
-        width: 33px;
-        margin-left: 35.7em;
-        top: -532px;
-      }
-    
-    /* Estilos para o contêiner da barra de pesquisa */
-    .search-bar {
-        display: flex;
-        align-items: center;
-        width: 200px;
-        border: 1px solid #ccc;
-        border-radius: 9px;
-        padding: 3px;
-        position: relative;
-       
-        margin-left: 60em;
-        top: -1105px;
-       
-      }
-      
-      /* Estilos para o campo de texto */
-      .search-bar input[type="text"] {
-        flex: 1;
-        border: none;
-        outline: none;
-       
-      }
-      
-      /* Estilos para o botão */
-      .search-bar button {
-        background-color: #2b4561;
-        color: #fff;
-        border: none;
-        border-radius: 9px;
-        margin-left: 5px;
-        padding: 9px 12px;
-        cursor: pointer;
-        
-      }
+.home{
+  font-size: 22px;
+  text-decoration: none;
+  color: black;
+  margin-left: -34em;
+  align-items: center;
+  position: absolute;
+  top: 5px;
+ 
+}
+
+.atracao{
+  font-size: 22px;
+  text-decoration: none;
+  color: black;
+  margin-left: -24em;
+  align-items: center;
+  position: absolute;
+  top: 5px;
+}
+
+.contato{
+  font-size: 22px;
+  text-decoration: none;
+  color: black;
+  margin-left: -14em;
+  align-items: center;
+  position: absolute;
+  top: 5px;
+}
+
+.container {
+  position: relative;
+}
+
+#image {
+  position: absolute;
+  width: 1655.5px;
+  height: 670px;
+  margin-left: -9em;
+  top: 80px;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  width: 220px;
+  border: 1px solid #ccc;
+  border-radius: 9px;
+  padding: 6px;
+  position: absolute;
+ margin-left: 70em;
+ top: 10px;
+ box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+ 
+}
+
+/* Estilos para o campo de texto */
+.search-bar input[type="text"] {
+  flex: 1;
+  border: none;
+  outline: none;
+
+ 
+}
+
+/* Estilos para o botão */
+.search-bar button {
+  background-color: #2b4561;
+  color: #fff;
+  border: none;
+  border-radius: 9px;
+  margin-left: 5px;
+  padding: 9px 12px;
+  cursor: pointer;
+  
+}
 
       
       .quadrado{
-        width: 450px;
-          height: 240px;
-          background-color: rgba(251, 246, 246, 0.297); 
+        width: 490px;
+          height: 250px;
+          background-color: rgba(198, 198, 198, 0.541); 
           margin: 30px;
-        
           padding-top: 120px;
-          border-radius: 8px;
+          border-radius: 15px;
           position: absolute;
           top: 18%;
-          margin-left: 5em;
+          margin-left: 7em;
           box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
       }
 
       #servicos{
         width: 1000px;
-        margin-left: -14.6em;
+        margin-left: -17em;
         position: absolute;
-        top: 30%;
-        font-size: 135%;
+        top: 12%;
+        font-size: 136%;
         color: black;
         text-align: center;
         text-decoration: none;
         display: inline-block;  
         font-weight: bold;
+        font-family: 'Inter', sans-serif; 
     }
 
         #item1{
-            width: 1000px;
-        margin-left: -21.5em;
+         width: 1000px;
+        margin-left: -23.5em;
         position: absolute;
-        top: 38%;
-        font-size: 100%;
+        top: 26%;
+        font-size: 110%;
         color: black;
         text-align: center;
         text-decoration: none;
         display: inline-block;   
-        font-family: Courier New, monospace;
+        font-family: 'Inter', sans-serif; 
         }
 
         #item2{
-            width: 1000px;
-        margin-left: -18.4em;
-        position: absolute;
-        top: 45%;
-        font-size: 100%;
-        color: black;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;   
-        font-family: Courier New, monospace;
-        }
+          width: 1000px;
+          margin-left: -21.2em;
+          position: absolute;
+          top: 36%;
+          font-size: 110%;
+          color: black;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;   
+          font-family: 'Inter', sans-serif;  }
 
         #item3{
-            width: 1000px;
-        margin-left: -21.7em;
-        position: absolute;
-        top: 51%;
-        font-size: 100%;
-        color: black;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;   
-        font-family: Courier New, monospace;
+          width: 1000px;
+          margin-left: -23.8em;
+          position: absolute;
+          top: 46%;
+          font-size: 110%;
+          color: black;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;   
+          font-family: 'Inter', sans-serif; 
         }
 
         #item4{
-            width: 1000px;
-        margin-left: -19.9em;
-        position: absolute;
-        top: 58%;
-        font-size: 100%;
-        color: black;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;   
-        font-family: Courier New, monospace;
+          width: 1000px;
+          margin-left: -22.4em;
+          position: absolute;
+          top: 56%;
+          font-size: 110%;
+          color: black;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;   
+          font-family: 'Inter', sans-serif; 
         }
 
         #item5{
-            width: 1000px;
-        margin-left: -17.9em;
-        position: absolute;
-        top: 66%;
-        font-size: 100%;
-        color: black;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;   
-        font-family: Courier New, monospace;
+          width: 1000px;
+          margin-left: -20.6em;
+          position: absolute;
+          top: 66%;
+          font-size: 110%;
+          color: black;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;   
+          font-family: 'Inter', sans-serif; 
         }
 
         #item6{
-            width: 1000px;
-        margin-left: -14.9em;
-        position: absolute;
-        top: 73%;
-        font-size: 100%;
-        color: black;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;   
-        font-family: Courier New, monospace;
+          width: 1000px;
+          margin-left: -18.3em;
+          position: absolute;
+          top: 76%;
+          font-size: 110%;
+          color: black;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;   
+          font-family: 'Inter', sans-serif; 
         }
 
         .quadrado2{
-            width: 330px;
-              height: 240px;
-              background-color: rgba(251, 246, 246, 0.384); 
-              margin: 30px;
-            
-              padding-top: 120px;
-              border-radius: 8px;
-              position: absolute;
-              top: 18%;
-              margin-left: 45em;
-              box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+          width: 450px;
+          height: 250px;
+          background-color: rgba(198, 198, 198, 0.541); 
+          margin: 30px;
+          padding-top: 120px;
+          border-radius: 15px;
+          position: absolute;
+          top: 18%;
+          margin-left: 60em;
+          box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
           }
-      
+          .quadrado3{
+            width: 1655px;
+            height: 160px;
+            background-color: #5cb8f299;
+            margin: 30px;
+            padding-top: 120px;
+            border-radius: 1px;
+            position: absolute;
+            top: 83%;
+            margin-left: -9em;
+            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            }
+
+            .redes{
+              font-family: 'Istok Web', sans-serif;
+               font-family: 16px;  
+               position: absolute;
+                                 
+            }
+        
     
      
