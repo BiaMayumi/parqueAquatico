@@ -73,8 +73,7 @@ html{
         margin-top: 10em;
         margin-left: 5%;
         box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-        position: fixed;
-        
+       
     
 }
 
@@ -82,12 +81,13 @@ html{
 
     
     .fml{
-        height: 220px;
-        margin-left: 36em;
-        position: absolute;
-        top: 170px;
+width: 30px;
+        margin-left: 37.8em;
+        top: 250px;
         border-radius: 3px;
         box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        position: absolute;
+      
     }
 
     .seta{
