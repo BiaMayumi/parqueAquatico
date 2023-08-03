@@ -1,103 +1,82 @@
 body {
-    background-color: #010137;
+    background-color: #1B4F72;
 }
 
 h1 {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    color: rgb(255, 255, 255);
-    padding: 5%;
-}
-
-h2{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    color: rgb(255, 255, 255);
-    padding: 5%;
-}
+    color: #fff;
+    margin-left: 14%;}
 
 .formulario {
     font-family: 'Roboto', sans-serif;
-    color: rgb(255, 255, 255);
+    color: #fff;
     padding: 5%;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
-    display: block;
-    margin-top: -100px;    
 }
-
 .bigger-textarea {
-    height: 100px; 
+    height: 90px;
+    resize: none; /* Impede o redimensionamento da caixa de texto */
 }
-
 .input-container {
-    font-family: 'Roboto', sans-serif;
+    margin-left: 10%;
     margin-bottom: 30px;
+    width: 70%;
 }
 
 .input-container:last-child {
-    text-align: right;
+    margin-left: 10%;
+    margin-bottom: 30px;
+    width: 70%;
+
 }
 
 .input-container:last-child input[type="submit"] {
     padding: 12px 20px;
     font-size: 16px;
-    border-radius: 10px; /* Arredondar as bordas */
-    background-color: rgba(255, 255, 255, 0.932); /* Definir a cor de fundo */
-    color: #000000; /* Definir a cor do texto */
-    border: none; /* Remover a borda */
-    cursor: pointer; /* Mostrar cursor de clique */
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.932);
+    color: #000;
+    cursor: pointer;
 }
-
 
 .contato-info {
     font-family: 'Roboto', sans-serif;
     color: #ffffff;
     display: flex;
     justify-content: space-between;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: -90%;
-}
+    width: 30;
+    border: none;
+    width: 90%;
+    margin-left: 5%;
 
-.contact-title {
-    font-family: 'Roboto', sans-serif;
-    margin-top: -50px;
-    margin-bottom: 10px; 
 }
 
 .rounded-input {
     font-family: 'Roboto', sans-serif;
-    color: #000000af;
     width: 100%;
     padding: 10px;
     font-size: 12px;
     border-radius: 10px;
+    border: none;
 }
 
 .contato-item {
-    flex: 1;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
     margin: 0 10px;
-    display: flex;
-    align-items: center;
-}
-
-.icon {
-    width: 40px;
-    height: 40px;
-    background-repeat: no-repeat;
-    background-size: contain;
-    margin-right: 10px;
-}
-
-.info {
     display: flex;
     flex-direction: column;
 }
 
-.label {
-    margin: 0;
-    font-weight: bold;
+.imagens{
+    margin-left: 65%;
+    max-width: 190px; /* Valor menor para diminuir a largura máxima */
+    max-height: 190px; /* Valor menor para diminuir a altura máxima */
+    margin-right: 10px
 }
 
-.valor {
-    margin: 0;
+.ctt{
+    color: #fff;
+    text-align: center;
+
 }
