@@ -1,45 +1,68 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contato</title>
-  <link rel="shortcut icon" href="#" type="image/x-icon" />
-  <link rel="stylesheet" href="ctt.css">
+  <link rel="shortcut icon" href="imagens/logo.png">
+  <link rel="stylesheet" href="contato.css">
 </head>
+
 <body>
 
-  <!-- ___________________________________________________________________ -->
-  <!-- Cabeçalho -->
-
   <header>
-
-
+    <h1>FALE CONOSCO!</h1>
+    <div class="formulario">
+      <form action="contact.php" method="post">
+        <div class="input-container">
+          <label for="name">NOME:</label>
+          <input type="text" id="name" name="name" placeholder="Enter your name..." class="rounded-input">
+        </div>
+        <div class="input-container">
+          <label for="email">E-MAIL:</label>
+          <input type="email" id="email" name="email" placeholder="Enter your email..." class="rounded-input">
+        </div>
+        <div class="input-container">
+          <label for="message">MENSAGEM:</label>
+          <textarea id="message" name="message" placeholder="Enter your message..." class="rounded-input bigger-textarea"></textarea>
+        </div>
+        <div class="input-container">
+          <input type="submit" value="Enviar" class="submit-button">
+        </div>
+      </form>
+    </div>
+    
   </header>
 
-  <!-- ___________________________________________________________________ -->
-  <!-- Sessão contato -->
-
-  <section class="contato">
-    <h2>FALE CONOSCO!</h2>
-    <p>NOME</p>
-    <form action="contact.php" method="post">
-      <input type="text" name="name" placeholder="Enter your name...">
-      <p>EMAIL</p>
-      <input type="email" name="email" placeholder="Enter your email...">
-      <p>MENSAGEM</p>
-      <input type="message" name="message" placeholder="Enter your message...">
-      <input type="submit" value="Enviar">
-    </form>
-  </section>
-
-  <section class="Entre em contato ">
-    <div class="redes-sociais">
-      <a href="#">Telefone</a>
-      <a href="#">Email</a>
-      <a href="#">Local</a>
+  <h2 class="contact-title">Entre em contato:</h2>
+  <div class="contato-info">
+    <div class="contato-item">
+      <div class="icon telefone-icon"></div>
+      <img src="img contato/telefone.png">
+      <div class="info">
+        <p class="label">Phone number</p>
+        <p class="valor">(11) 4002-8922</p>
+      </div>
     </div>
-  </section>
+    <div class="contato-item">
+      <div class="icon email-icon"></div>
+      <img src="img contato/email.png">
+      <div class="info">
+        <p class="label">E-mail</p>
+        <p class="valor">poseidonAquap@gmail.com</p>
+      </div>
+    </div>
+    <div class="contato-item">
+      <div class="icon endereco-icon"></div>
+      <img src="img contato/maps.png">
+      <div class="info">
+        <p class="label">Map street</p>
+        <p class="valor">Av. Santo Amaro, 242</p>
+      </div>
+    </div>
+  </div>
 
 </body>
+
 </html>
