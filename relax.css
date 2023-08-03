@@ -19,7 +19,8 @@ html{
 }   
     
     .logo{
-        width: 150px;
+        width: 150px; 
+        margin-left: 9em;
 }
 
     .pesquisa{
@@ -66,25 +67,23 @@ html{
 }
 
     .quadrado1 {
-    width: 550px; /* Largura do retângulo */
-    height: 480px; /* Altura do retângulo */
+    width: 540px; /* Largura do retângulo */
+    height: 400px; /* Altura do retângulo */
     background-color: white; /* Cor de fundo do retângulo */
     border-radius: 5%;
     margin-top: 10em;
-    margin-left: 2%;
-
+    margin-left: 5%;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    position: fixed;
     
 }
 
     .imagem {
        position: absolute;
-       top: 15em;
-       right: 14%;
-       margin-right: 3em;
-      
-       
-
-    
+       top: 13em;
+       right: 12%;
+       margin-right: 5em;
+     
     }
 
     .seta{
@@ -228,4 +227,8 @@ h2{
     font-size: 70%;
     justify-content: center;
     margin-left: 2em;
+}
+
+#relax{
+    border-radius: 2%;
 }

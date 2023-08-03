@@ -136,6 +136,7 @@ header .navigation .navigation-items a{
     align-items: center;
     margin-top: 5em;
     margin-left: 5em;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .container {

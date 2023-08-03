@@ -66,21 +66,26 @@ html{
 }
 
     .quadrado1 {
-    width: 550px; /* Largura do retângulo */
-    height: 480px; /* Altura do retângulo */
-    background-color: white; /* Cor de fundo do retângulo */
-    border-radius: 5%;
-    margin-top: 10em;
-    margin-left: 2%;
+        width: 540px; /* Largura do retângulo */
+        height: 400px; /* Altura do retângulo */
+        background-color: white; /* Cor de fundo do retângulo */
+        border-radius: 5%;
+        margin-top: 10em;
+        margin-left: 5%;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        position: fixed;
+        
 
     
 }
 
-    .imagem {
-       position: absolute;
-       top: 15em;
-       right: 14%;
-       margin-right: 1em;
+    .radical {
+        height: 310px;
+        margin-left: 37.8em;
+        top: 200px;
+        border-radius: 3px;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        position: absolute;
       
        
 
