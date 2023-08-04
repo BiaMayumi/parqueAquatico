@@ -197,14 +197,22 @@ footer a{
 footer h3{
     font-weight: 500;
     margin-left: 30em;
-    padding-top: 2em;
+    padding-top: 0;
 }
 
 .midia-icons{
     text-align: center;
     align-items: baseline;
-    margin-top: 5em;
-    margin-left: -8em;
+    margin-top: 2em;
+    margin-right: -36em;
+}
+
+#termos{
+    text-decoration: none;
+    color:var(--color-black2);
+    margin-left: 26%;
+    padding-top: 2em;
+    font-size: small;
 }
 
 @media (max-width: 1040px) {
