@@ -20,9 +20,6 @@
     font-family: 'Poppins', sans-serif;
 }
 
-html{
-    scroll-behavior: smooth;
-}
 
 header{ 
     background-color: var(--color-white);
@@ -32,11 +29,15 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 200px;
+    padding: 20px 110px;
 }
 
 .logo{
     margin-left: 0;
+}
+
+.logo img{
+    margin-left: -5em;
 }
 
 header .navigation{
@@ -53,7 +54,6 @@ header .navigation .navigation-items a{
     margin-left: 100px;
     top: 1.0em;
     right: 5em;
-    
 }
 
 
@@ -83,7 +83,7 @@ header .navigation .navigation-items a{
     align-items: center;
     position: relative;
     max-width: 190px;
-    left: 35em;
+    left: 45em;
     top: -1.0em;
 }
    
