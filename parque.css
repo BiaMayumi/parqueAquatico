@@ -29,9 +29,9 @@
 }
 
 .conteiner img{
-  width: 1280px;
-  height: 630px;
-  margin-left: -27em;
+  width: 1460px;
+  height: 660px;
+  margin-left: -32em;
   
 
 }
@@ -194,7 +194,6 @@ header .navigation .navigation-items a{
     width: 20px;
     margin-left: 39.5em;
     top: 500px; 
-    position: fixed;
    
   }
 
@@ -203,7 +202,6 @@ header .navigation .navigation-items a{
     width: 20px;
     margin-left: 41.5em;
     top: 500px; 
-    position: fixed;
   }
     
  
@@ -214,8 +212,7 @@ header .navigation .navigation-items a{
     margin-left: 37em;
     top: 496px;  
   
-    position: fixed;}
-
+    }
 
 
 /* Estilos para o contêiner da barra de pesquisa */
