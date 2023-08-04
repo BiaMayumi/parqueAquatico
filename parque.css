@@ -170,12 +170,9 @@ header .navigation .navigation-items a{
     color: #5CB9F2;
     font-family: Impact, fantasy;
     text-align: center;
-    whidt
-    
   }
 
   .redes {
-    position: absolute;
     font-size: 15px;
     top: 470px;  
     right: 580px;
@@ -183,8 +180,6 @@ header .navigation .navigation-items a{
     color: #ffffff;        
     font-family: Times, Times New Roman, serif;
     align-items: center;
-    
-    
   }
   
   .insta{
@@ -254,21 +249,20 @@ header .navigation .navigation-items a{
 
   .quadrado{
     width: 10000000px;
-background-color: #2b4561;
-top: 5000px;
-padding: relative;
+    background-color: #2b4561;
+    top: 5000px;
+    padding: relative;
   }
  
   .o{
-
-          margin-left: 76em;
-          position: absolute;
-          top: 94%;
-          font-size: 110%;
-          color: rgb(255, 255, 255);
-          text-align: center;
-          text-decoration: none;
-          display: inline-block;   
+    margin-left: 76em;
+    position: absolute;
+    top: 94%;
+    font-size: 110%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;   
          
   }
 
