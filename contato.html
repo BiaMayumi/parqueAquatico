@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -11,46 +9,66 @@
   <link rel="stylesheet" href="contato.css">
 </head>
 
+<header>
+  <div class="logo">
+    <a href="parque.html">
+      <img src="imagens/logo.png">
+    </a>
+  </div>
+  <div class="navigation">
+    <div class="navigation-items">
+      <a href="parque.html" class="active">HOME</a>
+      <a href="atracoes.html">ATRAÇÕES</a>
+      <a href="contato.html">CONTATO</a>
+      <a href="informações.html">SAIBA MAIS</a>
+
+      <div class="group">
+        <svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><g><path d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z"></path></g></svg>
+        <input placeholder="Search" type="search" class="input">
+
+        <div class="menu-btn"></div>
+      </div>
+    </div>
+  </div>
+</header>
+
 <body>
   <br>
   <br>
-    <h1>FALE CONOSCO!</h1>
-    <div class="formulario">
-      <form action="" method="post">
-        <div class="input-container">
-          <label for="name">NOME:</label>
-          <input type="text" id="name" name="name" placeholder="Enter your name..." class="rounded-input">
-        </div>
-        
-        <div class="input-container">
-          <label for="email">E-MAIL:</label>
-          <input type="email" id="email" name="email" placeholder="Enter your email..." class="rounded-input">
-        </div>
-
-        <div class="input-container">
-          <label for="message">MENSAGEM:</label>
-          <textarea id="message" name="message" placeholder="Enter your message..." class="rounded-input bigger-textarea">
-          </form></textarea>
-        </div>
-
-        <div class="input-container">
-          <input type="submit" value="Enviar" class="submit-button">
-        </div>
-      </form>
+  <h1>FALE CONOSCO!</h1>
+  <div class="formulario">
+    <div class="input-container">
+      <label for="name">NOME:</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name..." class="rounded-input">
     </div>
 
-    <footer>
-      <div class="imagens">
-        <a href="link_do_telefone"><img src="img contato/telefone.png" alt="Telefone"></a>
-        <a href="https://goo.gl/maps/PjPcEjpFo1dQcVJE8"><img src="img contato/maps.png" alt="Mapas"></a>
-        <a href="https://mail.google.com/mail/u/1/?ogbl#inbox"><img src="img contato/email.png" alt="Email"></a>
-      </div>
+    <div class="input-container">
+      <label for="email">E-MAIL:</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email..." class="rounded-input">
+    </div>
 
-        <div class="ctt">
-          <br><br><br>          
-        <p>Copyright &copy; 2023 Parque Aquático Poseidon</p>
-      </div>
-    </footer>
-  
-  </body>
-  </html>
+    <div class="input-container">
+      <label for="message">MENSAGEM:</label>
+      <textarea id="message" name="message" placeholder="Enter your message..." class="rounded-input bigger-textarea"></textarea>
+    </div>
+
+    <div class="input-container">
+      <input type="submit" value="Enviar" class="submit-button">
+    </div>
+  </div>
+
+  <footer>
+    <div class="imagens">
+      <a href="link_do_telefone"><img src="img contato/telefone.png" alt="Telefone"></a>
+      <a href="https://goo.gl/maps/PjPcEjpFo1dQcVJE8"><img src="img contato/maps.png" alt="Mapas"></a>
+      <a href="https://mail.google.com/mail/u/1/?ogbl#inbox"><img src="img contato/email.png" alt="Email"></a>
+    </div>
+
+    <div class="ctt">
+      <br><br><br>
+      <p>Copyright &copy; 2023 Parque Aquático Poseidon</p>
+    </div>
+  </footer>
+</body>
+
+</html>
