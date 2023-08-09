@@ -21,128 +21,6 @@
     font-family: 'Poppins', sans-serif;
 }
 
-html{
-    scroll-behavior: smooth;
-}
-
-nav{
-    display: flex;
-    position: absolute;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
-    top: 0;
-    background-color: var(--color-white);
-    height: 8vh;
-}
-
-a{
-    text-decoration: none;
-}
-
-.nav-list{
-    list-style: none;
-    display: flex;
-}
-
-.nav-list li{
-    margin-left: 32px;
-}
-
-.logo img{
-    margin-left: 1em;
-    padding-top: 3em;
-}
-
-nav .nav-list li a{
-    position: relative;
-    color: var(--color-black2);
-}
-
-.logo {
-    margin-left: 0;
-}
-
-nav .nav-list {
-    position: relative;
-    right: 150px;
-}
-
-nav .nav-list a {
-    position: relative;
-    color: var(--color-white);
-    font-size: 1em;
-    font-weight: 500;
-    text-decoration: none;
-    margin-left: 50px;
-    top: 1.0em;
-    right: 12em;
-}
-
-
-nav .nav-list a:before {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background-color: var(--color-blue2);
-    visibility: hidden;
-    -webkit-transform: scaleX(0);
-    transform: scaleX(0);
-    -webkit-transition: all 0.3s ease-in-out 0s;
-    transition: all 0.3s ease-in-out 0s;
-}
-
-nav .nav-list a:hover:before {
-    visibility: visible;
-    -webkit-transform: scaleX(1);
-    transform: scaleX(1);
-}
-
-.group {
-    display: flex;
-    align-items: center;
-    position: relative;
-    max-width: 190px;
-    left: 68em;
-    top: -1.5em;
-}
-
-.input {
-    width: 100%;
-    height: 40px;
-    line-height: 28px;
-    padding: 0 1rem;
-    padding-left: 2.5rem;
-    border: 2px solid transparent;
-    border-radius: 8px;
-    outline: none;
-    background-color: rgba(0, 0, 0, 0);
-    color: #000000;
-    transition: .3s ease;
-}
-
-.input::placeholder {
-    color: #171718e5;
-}
-
-.input:focus, input:hover {
-    outline: none;
-    border-color: var(--color-blue3);
-    background-color: #cecbcb36;
-    box-shadow: 0 0 0 4px var(--color-blue3 / 10%);
-}
-
-.icon {
-    position: absolute;
-    left: 1rem;
-    fill: #9e9ea7;
-    width: 1rem;
-    height: 1rem;
-}
-
 .atracoes h1 {
     text-align: center;
     font-family: 'Poppins', sans-serif;
@@ -156,11 +34,8 @@ nav .nav-list a:hover:before {
 .container {
     justify-content: space-between;
     display: inline-flex;
-    max-width: 667px;
-    min-width: 320px;
     display: flex;
     justify-content: center; 
-    flex-wrap: wrap;
     margin-top: 4em;
     gap: 2em; /* Espaçamento entre os quadrados */
 }
@@ -194,96 +69,15 @@ nav .nav-list a:hover:before {
     font-family: 'Poppins', sans-serif;
     font-weight: 900;
     color: rgb(255, 255, 255);
-
  }
 
 .container a {
     text-decoration: none;
 }
 
-footer {
-    width: 100%;
-    height: 8em;
-    background-color: rgba(0, 0, 0, 0.082);
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-top: 5em;
-}
-
-footer h2 {
-    font-weight: 500;
-    margin-left: 30em;
-    padding-top: 2em;
-}
-
-.midia-icons{
-    text-align: center;
-    align-items: baseline;
-    margin-top: 2em;
-    margin-right: 2em;
-}
-
-#termos{
-    text-decoration: none;
-    color:var(--color-black2);
-    
-    margin-top: em;
-    font-size: small;
-}
-
-@media (min-width: 320px) {
-    header{
-    padding: 20px 20px;    
-    }
-}
-
-.mobile-menu { 
-    display: none;
-    cursor: pointer;
-    margin-left: 23em;
-}
-.mobile-menu div{
-    width: 32px;
-    height: 2px;
-    background-color: var(--color-black2);
-    margin: 8px;
-}
 @media (max-width: 999px) {
-    body{
-        overflow-x: hidden;
-    }
-
-    nav .logo{
-        margin-right: auto;
-    }
-
-    .nav-list{
-        position: absolute;
-        top: 12vh;
-        right: 0;
-        width: 50vw;
-        height: 92vh;
-        background-color: var(--color-black2);
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-        transform: translate(100%);
-        transition: transform 0.3s ease-in;
-    }
-
-    .nav-list li{
-        margin-left: auto;
-    
-    }
-
-    .mobile-menu{
-        display: block;
-        margin-top: -2em;
-    }
-
-    .nav-list.active {
-        transform: translateX(0);
+    .container{
+        flex-wrap: wrap;
     }
 }
 
