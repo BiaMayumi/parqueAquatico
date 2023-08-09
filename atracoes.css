@@ -21,17 +21,18 @@
     font-family: 'Poppins', sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
 
-header {
-    background-color: transparent;
-    position: absolute;
-    top: 0;
-    width: 100%;
+nav{
     display: flex;
+    position: absolute;
     justify-content: space-around;
     align-items: center;
-    background-color: var(--color-white);
+    width: 100%;
     top: 0;
+    background-color: var(--color-white);
     height: 8vh;
 }
 
@@ -53,23 +54,21 @@ a{
     padding-top: 3em;
 }
 
-header  nav .nav-list li a{
+nav .nav-list li a{
     position: relative;
     color: var(--color-black2);
+}
+
 .logo {
     margin-left: 0;
 }
 
-.logo img {
-    margin-left: -5em;
-}
-
-header .navigation {
+nav .nav-list {
     position: relative;
     right: 150px;
 }
 
-header .navigation .navigation-items a {
+nav .nav-list a {
     position: relative;
     color: var(--color-white);
     font-size: 1em;
@@ -144,7 +143,6 @@ nav .nav-list a:hover:before {
     height: 1rem;
 }
 
-
 .atracoes h1 {
     text-align: center;
     font-family: 'Poppins', sans-serif;
@@ -158,7 +156,6 @@ nav .nav-list a:hover:before {
 .container {
     justify-content: space-between;
     display: inline-flex;
-
     max-width: 667px;
     min-width: 320px;
     display: flex;

@@ -21,42 +21,62 @@
   font-family: 'Poppins', sans-serif;
 }
 
-header {
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('imagens/imagem1.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Arial, sans-serif;
+  overflow: hidden; /* Add this line to hide the scrollbars */
+}
+
+nav {
   background-color: transparent;
-  position: absolute;
-  top: 0;
-  width: 100%;
   display: flex;
-  justify-content: space-between;
+  position: absolute;
+  justify-content: space-around;
   align-items: center;
-  padding: 20px 110px;
+  width: 100%;
+  top: 0;
+  height: 8vh;
 }
 
-.logo {
-  margin-left: 0;
+a{
+  text-decoration: none;
 }
 
-.logo img {
-  margin-left: -5em;
+.nav-list{
+  list-style: none;
+  display: flex;
 }
 
-header .navigation {
+.nav-list li{
+  margin-left: 32px;
+}
+
+nav .nav-list li a{
   position: relative;
-  right: 150px;
+  color: var(--color-black2);
 }
 
-header .navigation .navigation-items a {
+.logo img{
+  margin-left: -5em;
+  padding-top: 5em;
+}
+
+nav .nav-list a {
   position: relative;
   color: var(--color-white);
   font-size: 1em;
   font-weight: 500;
   text-decoration: none;
   margin-left: 100px;
-  top: 1.0em;
-  right: 5em;
+  top: 2em;
+  right: 15em;
 }
 
-.navigation .navigation-items a:before {
+nav .nav-list a:before {
   content: "";
   position: absolute;
   width: 100%;
@@ -71,7 +91,7 @@ header .navigation .navigation-items a {
   transition: all 0.3s ease-in-out 0s;
 }
 
-.navigation .navigation-items a:hover:before {
+nav .nav-list a:hover:before {
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
@@ -82,8 +102,8 @@ header .navigation .navigation-items a {
   align-items: center;
   position: relative;
   max-width: 190px;
-  left: 45em;
-  top: -1.0em;
+  left: 65em;
+  top: 1em;
 }
 
 .input {
@@ -145,17 +165,26 @@ p{
   text-align: center;
 }
 
-#bem-vindo h2 {
+#bem-vindo h1 {
   font-family: 'Poppins', sans-serif;
   font-size: 3rem;
   margin-bottom: 1rem;
   font-weight: 400;
 }
 
-.btn-nossos-servicos {
-
-  display: inline-flex;
+#bem-vindo .center{
+  display: flex;
   justify-content: center;
+  align-items: center;
+  margin-top: 1rem; /* Espaçamento entre o parágrafo e o botão */
+}
+
+ #nossos-servicos{
+    display: flex;
+    margin: auto;
+ }
+
+.btn-nossos-servicos {
   padding: 10px 20px;
   background-color: transparent;
   border: 2px solid var(--color-blue2);
@@ -175,6 +204,72 @@ p{
   border-color: var(--color-blue2);
 }
 
+@media (min-width: 320px) {
+  header{
+  padding: 20px 20px;    
+  }
+}
+
+.mobile-menu { 
+  display: none;
+  cursor: pointer;
+  margin-left: 20em;
+}
+.mobile-menu div{
+  width: 32px;
+  height: 2px;
+  background-color: var(--color-black2);
+  margin: 8px;
+}
+@media (max-width: 999px) {
+  body{
+      overflow-x: hidden;
+  }
+
+  nav .logo{
+      margin-left: 10%;
+  }
+
+  .nav-list{
+      position: absolute;
+      top: 12vh;
+      right: 0;
+      width: 50vw;
+      height: 92vh;
+      background-color: var(--color-black2);
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      transform: translate(100%);
+      transition: transform 0.3s ease-in;
+  }
+
+  .nav-list li{
+      margin-left: auto;
+  
+  }
+
+  .mobile-menu{
+      display: block;
+      margin-top: 3em;
+      margin-left: -6em;
+  }
+
+  .nav-list.active {
+      transform: translateX(0);
+  }
+}
+
+@keyframes navLinkFade {
+  from {
+      opacity: 0;
+      transform: translateX(50px);
+  }
+  to {
+      opacity:1;
+      transform: translateX(0);
+  }
+}
 
 
 
