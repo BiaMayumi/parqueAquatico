@@ -21,43 +21,45 @@
 }
 
 
-header{ 
-    background-color: var(--color-white);
-    position: absolute;
-    top: 0;
-    width: 100%;
+nav{ 
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    padding: 20px 110px;
+    background-color: var(--color-white);
+    top: 0;
+    height: 8vh;
 }
 
-.logo{
-    margin-left: 0;
+a{
+    text-decoration: none;
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li{
+    margin-left: 32px;
 }
 
 .logo img{
-    margin-left: -5em;
+    margin-left: 1em;
+    padding-top: 3em;
 }
 
-header .navigation{
-    position: relative;
-    right: 150px;
-}
-  
-header .navigation .navigation-items a{
+header  nav .nav-list li a{
     position: relative;
     color: var(--color-black2);
-    font-size: 1em;
     font-weight: 500;
     text-decoration: none;
-    margin-left: 100px;
+    margin-left: 50px;
     top: 1.0em;
-    right: 5em;
+    right: 12em;
 }
 
 
-.navigation .navigation-items a:before {
+nav .nav-list a:before {
     content: "";
     position: absolute;
     width: 100%;
@@ -72,7 +74,7 @@ header .navigation .navigation-items a{
     transition: all 0.3s ease-in-out 0s;
 }
 
-.navigation .navigation-items a:hover:before {
+nav .nav-list a:hover:before {
     visibility: visible;
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
@@ -83,8 +85,8 @@ header .navigation .navigation-items a{
     align-items: center;
     position: relative;
     max-width: 190px;
-    left: 45em;
-    top: -1.0em;
+    left: 68em;
+    top: -1.5em;
 }
    
 .input {
@@ -123,7 +125,7 @@ header .navigation .navigation-items a{
 .atracoes h1{
     text-align: center;
     font-family: 'Poppins', sans-serif;
-    margin-top: 5em;
+    margin-top: 2em;
     background-color: var(--color-blue3);
     font-size: bolder;
 }
@@ -142,6 +144,9 @@ header .navigation .navigation-items a{
 .container {
     justify-content: space-between;
     display: inline-flex;
+
+    max-width: 667px;
+    min-width: 320px;
 }
 
 .container .quadrado img{
@@ -197,27 +202,86 @@ footer a{
 footer h3{
     font-weight: 500;
     margin-left: 30em;
-    padding-top: 0;
+    padding-top: 2em;
 }
 
 .midia-icons{
     text-align: center;
     align-items: baseline;
     margin-top: 2em;
-    margin-right: -36em;
+    margin-right: 2em;
 }
 
 #termos{
     text-decoration: none;
     color:var(--color-black2);
-    margin-left: 26%;
-    padding-top: 2em;
+    
+    margin-top: em;
     font-size: small;
 }
 
-@media (max-width: 1040px) {
+@media (min-width: 320px) {
     header{
-    padding: 20px 20px;
-        
+    padding: 20px 20px;    
+    }
+}
+
+.mobile-menu { 
+    display: none;
+    cursor: pointer;
+    margin-left: 23em;
+}
+.mobile-menu div{
+    width: 32px;
+    height: 2px;
+    background-color: var(--color-black2);
+    margin: 8px;
+}
+@media (max-width: 999px) {
+    body{
+        overflow-x: hidden;
+    }
+
+    nav .logo{
+        margin-right: auto;
+    }
+
+    .nav-list{
+        position: absolute;
+        top: 12vh;
+        right: 0;
+        width: 50vw;
+        height: 92vh;
+        background-color: var(--color-black2);
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        transform: translate(100%);
+        transition: transform 0.3s ease-in;
+    }
+
+    .nav-list li{
+        margin-left: auto;
+    
+    }
+
+    .mobile-menu{
+        display: block;
+        margin-top: -2em;
+    }
+
+    .nav-list.active {
+        transform: translateX(0);
+    }
+}
+
+@keyframes navLinkFade {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to {
+        opacity:1;
+        transform: translateX(0);
     }
 }
