@@ -127,7 +127,7 @@ header{
 }
 
 .logo{
-    margin-left: 0;
+    margin-left: -4em;
 }
 
 header .navigation{
@@ -174,7 +174,7 @@ header .navigation .navigation-items a{
     align-items: center;
     position: relative;
     max-width: 190px;
-    left: 35em;
+    left: 45em;
     top: -1.0em;
 }
    

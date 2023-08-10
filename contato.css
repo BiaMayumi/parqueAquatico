@@ -128,7 +128,8 @@ h1 {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     color: #fff;
-    margin-left: 14%;}
+    margin-left: 14%;
+}
 
 .formulario {
     font-family: 'Roboto', sans-serif;
@@ -200,5 +201,11 @@ h1 {
 .ctt{
     color: #fff;
     text-align: center;
+}
 
+@media (max-width:999px) {
+    .imagens{
+        margin-left: 30%;
+        
+    }
 }
