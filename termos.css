@@ -30,14 +30,12 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 20px 110px;
-}
-
-.logo{
-    margin-left: 0;
+    
 }
 
 .logo img{
     margin-left: -5em;
+    margin-top: 1em;
 }
 
 header .navigation{
@@ -52,8 +50,8 @@ header .navigation .navigation-items a{
     font-weight: 500;
     text-decoration: none;
     margin-left: 100px;
-    top: 1.0em;
-    right: 5em;
+    top: -3em;
+    left: 15em;
 }
 
 
@@ -83,8 +81,8 @@ header .navigation .navigation-items a{
     align-items: center;
     position: relative;
     max-width: 190px;
-    left: 45em;
-    top: -1.0em;
+    left: 65em;
+    top: -5em;
 }
    
 .input {
@@ -123,6 +121,7 @@ header .navigation .navigation-items a{
 .texto h1{
     color: var(--color-black2);
     margin-left: 35%;
+    margin-top: 6em;
 }
 
 .texto{

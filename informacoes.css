@@ -146,6 +146,7 @@ footer h2 {
   text-decoration: none;
   color:var(--color-black2);
   font-size: small;
+  margin-right: 10em;
 }
 
 @media (max-width: 999px) {
