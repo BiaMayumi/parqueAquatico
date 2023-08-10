@@ -51,9 +51,20 @@ body {
   cursor: pointer;
   display: flex;
   justify-content: space-between;
-  /* margin-top: 10em; */
+  margin-top: 10em;
 }
 
+.botao-reserva {
+  margin-top: -1.2em;
+}
+
+.botao-comprar{
+  margin-top: 1em;
+}
+
+.botao-comprar2{
+  margin-left: 1em;
+}
 .botao-comprar button:hover,
 .botao-reserva button:hover {
   background-color: #1B4F72;
