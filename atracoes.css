@@ -51,7 +51,7 @@ nav {
   }
   
   .logo img{
-    margin-left: 3em;
+    margin-left: -3em;
     padding-top: 5em;
   }
   
@@ -92,7 +92,7 @@ nav {
     align-items: center;
     position: relative;
     max-width: 190px;
-    left: 73em;
+    left: 65em;
     top: 2.5em;
   }
 
@@ -197,6 +197,10 @@ nav {
 }
 
 @media (max-width: 999px) {
+
+    .group {
+    left: 55em;
+    }
     .container{
         flex-wrap: wrap;
     }

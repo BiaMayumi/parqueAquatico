@@ -57,7 +57,7 @@ a{
 
 nav .nav-list li a{
   position: relative;
-  color: var(--color-black2);
+  color: var(--color-white);
 }
 
 .logo img{
