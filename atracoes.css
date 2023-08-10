@@ -92,8 +92,8 @@ nav {
     align-items: center;
     position: relative;
     max-width: 190px;
-    left: 68em;
-    top: 2em;
+    left: 73em;
+    top: 2.5em;
   }
 
   .input {
@@ -134,10 +134,10 @@ nav {
     text-align: center;
     font-family: 'Poppins', sans-serif;
     margin-top: 2em;
-    background-color: var(--color-blue3);
     margin-top: 5em;
     font-size: bolder;
     font-weight: 800;
+    font-size: 2em;
 }
 
 .container {
