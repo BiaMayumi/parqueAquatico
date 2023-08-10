@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Poseidon</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="maisinfo.css">
+  <link rel="shortcut icon" href="imagens/logo.png">
+</head>
+<script>
+    class MobileNavbar {
+      constructor(mobileMenu, navList, navLinks) {
+          this.mobileMenu = document.querySelector(mobileMenu);
+          this.navList = document.querySelector(navList);
+          this.navLinks = document.querySelectorAll(navLinks);
+          this.activeClass = "active";
+  
+          this.handleClick = this.handleClick.bind(this);
+      }
+  
+      handleClick() {
+          console.log(this);
+      }
+      addClickEvent() {
+          this.mobileMenu.addEventListener("click" , this.handleClick);
+      }
+  
+      init() {
+          if (this.mobileMenu) {
+              this.addClickEvent();
+          }
+          return this;
+      }
+  }  
+  
+  const mobileNavbar = new MobileNavbar(
+      ".mobile-menu", 
+      ".nav-list", 
+      ".nav-list li"
+  );
+  mobileNavbar.init();
+  </script>
+<body>
+  <header>
+    <nav>
+      <a href="parque.html" class="logo"><img src="imagens/logo.png"></a>
+      <div class="mobile-menu">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </div>
+    <script src='mobile-navbar.js'></script>
+      <ul class="nav-list">
+        <li><a href="parque.html">HOME</a></li>
+        <li><a href="atracoes.html">ATRAÇÕES</a></li>
+        <li><a href="contato.html">CONTATO</a></li>
+        <li><a href="informacoes.html">SAIBA MAIS</a></li>
+      </ul>
+    </nav>
+
+</nav>
+
+</div>
+</header>
+<section id="bem-vindo">
+    <label id="servicos">NOSSOS SERVIÇOS:</label>
+    <label id="item1">- 10 Tobogãs</label>
+    <label id="item2">- 5 Piscinas aquecidas </label>
+    <label id="item3">- Rio lento</label>
+    <label id="item4">- Espaço Infantil </label>
+    <label id="item5">- Serviço de alinhamento </label>
+    <label id="item6">- Estacionamento: R$15 o dia todo. </label>
+    <img src="imagens/toboagua-beach-park-1024x1024.jpg" class="img1">
+    <img src="imagens/images (1).jfif" class="img2">
+
+
+</section>
+
+    

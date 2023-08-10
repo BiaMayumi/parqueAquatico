@@ -96,6 +96,8 @@
       left: 35em;
       top: -1.0em;
   }
+
+
      
   .input {
       width: 100%;
@@ -132,15 +134,15 @@
 
   #image {
     position: absolute;
-    width: 1655.5px;
+    width: 1500.5px;
     height: 670px;
     margin-left: -9em;
     top: 80px;
   }
       
       .quadrado{
-        width: 490px;
-          height: 290px;
+        width: 460px;
+          height: 350px;
           background-color: rgba(198, 198, 198, 0.541); 
           margin: 30px;
           padding-top: 120px;
@@ -244,30 +246,6 @@
           font-family: 'Inter', sans-serif; 
         }
 
-        .quadrado2{
-          width: 380px;
-          height: 400px;
-          background-color: rgba(198, 198, 198, 0.541); 
-          margin: 30px;
-          padding-top: 120px;
-          border-radius: 15px;
-          position: absolute;
-          top: 15%;
-          margin-left: 55em;
-          box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-          }
-          .quadrado3{
-            width: 1655px;
-            height: 250px;
-            background-color: #5cb8f299;
-            margin: 30px;
-            padding-top: 120px;
-            border-radius: 1px;
-            position: absolute;
-            top: 83%;
-            margin-left: -9em;
-            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-            }
 
             .redes{
               font-family: 'Istok Web', sans-serif;
